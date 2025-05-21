@@ -19,6 +19,8 @@ printf("Enter two integers: ");
 scanf("%d %d", &a, &b);
 performCalculation(a, b);
 }
-void displayResult(int result) {
-printf("The result is: %d\n", result);
+void displayResult(int result) { 
+    printf("**********\n");
+    printf("The computed result is: %d\n", result);
+    printf("**********\n");
 }
